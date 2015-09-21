@@ -6,4 +6,4 @@ SOIL_PATH=$(pwd)
 
 echo $SOIL_PATH
 echo $config
-test
+callScript scripts/_ssh.sh

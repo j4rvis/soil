@@ -1,5 +1,10 @@
 #!/bin/bash
 
-function test(){
-	echo 'Functions are working as well'
+function callScript(){
+	read -p 'Shall the script $1 be executed? (Y/n)' yn
+	case $yn in
+		[Yy]* ) . $1;;
+		[Nn]* ) echo no;;
+		* ) . $1;;
+	esac
 }
