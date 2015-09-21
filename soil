@@ -1,0 +1,9 @@
+#!/bin/bash
+
+SOIL_PATH=$(pwd)
+. $SOIL_PATH/basics/config
+. $SOIL_PATH/basics/functions
+
+echo $SOIL_PATH
+echo $config
+test
