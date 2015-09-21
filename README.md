@@ -1,5 +1,4 @@
-# soil
-**So**ftware **I**nstaller fo **L**inux
+# soil - *So*ftware *I*nstaller fo *L*inux
 
 ### Further Tasks
 
