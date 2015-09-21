@@ -1,4 +1,4 @@
-# soil - *So*ftware *I*nstaller fo *L*inux
+# soil - Software Installer fo Linux
 
 ### Further Tasks
 
