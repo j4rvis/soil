@@ -6,4 +6,12 @@ SOIL_PATH=$(pwd)
 
 echo $SOIL_PATH
 echo $config
-callScript scripts/_ssh.sh
+
+# Calling the git script
+callScript git.sh
+
+# Calling the ssh script
+callScript ssh.sh
+
+# Calling the bash script
+callScript bash.sh

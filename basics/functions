@@ -1,10 +1,13 @@
 #!/bin/bash
 
+SCRIPT_PATH=scripts/
+
 function callScript(){
-	read -p 'Shall the script $1 be executed? (Y/n)' yn
+	local script=$SCRIPT_PATH$1
+	read -p "Shall the script $1 be executed? (Y/n)" yn
 	case $yn in
-		[Yy]* ) . $1;;
-		[Nn]* ) echo no;;
-		* ) . $1;;
+		[Yy]* ) echo "$1 gets executed."; . $script;;
+		[Nn]* ) echo "$1 will NOT be executed.";;
+		* ) echo "$1 gets executed."; . $script;;
 	esac
 }
