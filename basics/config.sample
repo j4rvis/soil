@@ -1,0 +1,5 @@
+#!/bin/bash
+
+config='Config is working'
+GIT_NAME='Your Git Name'
+GIT_EMAIL='example@mail.com'
