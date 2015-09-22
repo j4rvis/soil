@@ -1,5 +1,0 @@
-#!/bin/bash
-
-config='Config is working'
-GIT_NAME='Michael Schwarz'
-GIT_EMAIL='schwarzm90@gmail.com'
