@@ -7,8 +7,8 @@ sudo apt-get update
 sudo apt-get install sublime-text-installer
 
 if [ -d ~/.config/sublime-text-3 ]; then
-  cp ./settings/subl_pref.sublime-settings ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
-  cp ./settings/subl_keymap.sublime-keymap ~/.config/sublime-text-3/Packages/User/Default\ \(Linux\).sublime-keymap
+  cp ../settings/subl_pref.sublime-settings ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
+  cp ../settings/subl_keymap.sublime-keymap ~/.config/sublime-text-3/Packages/User/Default\ \(Linux\).sublime-keymap
   xclip -sel clip < ./subl_package-control
   subl
 fi
